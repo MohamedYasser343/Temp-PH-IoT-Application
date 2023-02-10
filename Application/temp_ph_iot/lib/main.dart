@@ -4,7 +4,7 @@ import 'package:temp_ph_iot/home_page.dart';
 void main() {
   runApp(const MyApp());
 }
-const ServerIP = "http://92.205.60.182:9999";
+const ServerIP = "http://<host>:<port>";
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
